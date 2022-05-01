@@ -1,0 +1,173 @@
+html{
+    background-color: lightyellow;
+}
+
+body{
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+img{
+    border-style: dotted;
+    border-color: mediumslateblue;
+}
+
+#new-button{
+    margin-left: 55em;
+}
+
+#dog-picture{
+    width: 400px;
+    height: 274px;
+    margin-left: 34em;
+}
+
+#airedale-picture{
+    width: 411px;
+    height: 274px;
+    margin-top: 1em;
+}
+
+#irish-picture{
+    width: 411px;
+    height: 274px;
+    margin-top: 19em;
+}
+
+#dog-caption{
+    color: rgb(2, 2, 180);
+    font-weight: 1000;
+    text-align: center;
+}
+
+h1{
+    color: brown;
+    text-align: center;
+}
+
+h2{
+    color: rgb(0, 71, 0);
+    text-align: center;
+}
+
+#blog-header{
+    margin-top: 15em;
+}
+
+h3{
+    color: indigo;
+    text-align: right;
+    margin-right: 34em;
+    margin-top: -16.5em;
+}
+
+h4{
+    color: rgb(2, 176, 179);
+    text-align: left;
+}
+
+#dog-description, #blog-description{
+    text-align: left;
+    border-style: groove;
+    padding: 0.5em;
+}
+
+ol{
+    float: right;
+    margin-top: 0em;
+}
+
+#airedale-list{
+    border-style: groove;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+    padding-left: 1.7em;
+}
+
+#irish-list{
+    margin-right: 5em;
+    border-style: groove;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+    padding-left: 1.7em;
+}
+
+p[id="copyright"]{
+    margin-top: 10em;
+    color: #a00101;
+    text-align: right;
+}
+
+a{
+    font-weight: bold;
+}
+
+a:link{
+    color: darkcyan;
+}
+
+a:visited{
+    color: orchid;
+}
+
+a:hover, a:focus{
+    color: #b69b03;
+}
+
+#display-content {
+    margin-top: 2em;
+    margin-right: 100em;
+}
+
+
+/* Modal styles */
+
+#modal-backdrop {
+    display: none;
+    margin-top: -150em;
+    margin-left: -1em;
+    position: absolute;
+    height: 328vh;
+    width: 99.4vw;
+    background-color: rgba(70, 70, 70, 0.75)
+}
+
+#modal-backdrop.visible {
+    display: block;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    margin-left: 800px;
+    margin-top: 900px;
+    border: solid 1px #555;
+    background-color: #fff;
+    z-index: 99999;
+    width: 300px;
+    height: 320px;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal.visible {
+    display: block;
+}
+
+.modal-content {
+    width: 300px;
+    height: 300px;
+}
+
+#edit-title {
+    width: 300px;
+}
+
+#edit-content-text {
+    width: 100%;
+    box-sizing: border-box;
+}
